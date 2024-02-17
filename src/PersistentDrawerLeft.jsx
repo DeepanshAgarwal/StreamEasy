@@ -21,6 +21,7 @@ import MailIcon from "@mui/icons-material/Mail";
 
 import PrimarySearchAppBar from "./PrimarySearchAppBar";
 import "./PersistentDrawerLeft.css";
+import CardContainer from "./CardContainer";
 
 const drawerWidth = 240;
 
@@ -163,7 +164,7 @@ export default function PersistentDrawerLeft() {
             </Drawer>
             <Main open={open}>
                 <DrawerHeader />
-                {/* MAIN CODE HERE */}
+                <CardContainer />
             </Main>
         </Box>
     );

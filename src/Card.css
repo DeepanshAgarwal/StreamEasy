@@ -1,0 +1,7 @@
+.movie-title {
+    font-size: 1.5em;
+    font-weight: 600;
+    padding: none;
+    /* width: 137px; */
+    width: 100%;
+}

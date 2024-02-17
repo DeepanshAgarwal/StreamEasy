@@ -1,0 +1,11 @@
+.custom-search {
+    min-width: 40vw;
+    /* width: 60vw; */
+}
+
+.custom-search-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
